@@ -434,7 +434,7 @@ footer li a:hover {
     width: 150%;
   }
   img.logo {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .first h1 {
     position: absolute;
@@ -634,26 +634,13 @@ footer li a:hover {
     top: -20%;
   }
 
-  /* .emily {
-    position: absolute;
-    top: -40px;
-  }
-
-  .thomas {
-    position: absolute;
-    top: 320px;
-  }
-
-  .jenny {
-    position: absolute;
-    top: 750px;
-  } */
-
   .image-gallery {
     flex-wrap: wrap;
   }
   .image-gallery img {
     width: 50%;
-    margin-block: -2px;
+    margin: trim 5px;
+    padding-block: -2px;
+    margin-block: -1px;
   }
 }
