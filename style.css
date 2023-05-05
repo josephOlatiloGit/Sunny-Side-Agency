@@ -637,9 +637,11 @@ footer li a:hover {
 
   .image-gallery {
     flex-wrap: wrap;
+    row-gap: initial;
   }
   .image-gallery img {
     width: 50%;
+    row-gap: none;
     margin-bottom: -5px;
     padding-block: -1px;
     margin-block: -1px;
